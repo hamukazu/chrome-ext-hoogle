@@ -1,0 +1,11 @@
+{
+  "name": "Hoogle Search",
+  "description" : "To use, enter ¥ in Omnibox",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [ "tabs", "http://www.haskell.org/" ],
+  "omnibox": { "keyword" : "hoogle" },
+  "manifest_version": 1
+}
